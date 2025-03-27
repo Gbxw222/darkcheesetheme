@@ -1,0 +1,80 @@
+/**
+ * @name DarkCheese
+ * @description Thanks to @refact0r for midnight as this is based on it.
+ * @author WeAreCheese (idk19_2981)
+ * @version 2.0.0
+ */
+
+@import url('https://refact0r.github.io/midnight-discord/build/midnight.css'); /* Custom styling based on Midnight */
+
+body {
+    --font: 'figtree';
+    --gap: 12px;
+    --divider-thickness: 4px;
+    --animations: on;
+    --list-item-transition: 0.2s ease;
+    --dms-icon-svg-transition: 0.4s ease;
+    --move-top-bar-buttons: off;
+    --custom-app-top-bar-height: 32px;
+    --custom-window-controls: on;
+    --window-control-size: 14px;
+    --dms-icon: on;
+    --dms-icon-color-before: var(--icon-secondary);
+    --dms-icon-color-after: var(--white);
+    --dms-background: off;
+    --background-image: off;
+    --transparency-tweaks: off;
+    --remove-bg-layer: off;
+    --panel-blur: off;
+    --blur-amount: 12px;
+    --bg-floating: var(--bg-3);
+    --small-user-panel: off;
+}
+
+/* Custom DMs Icon */
+.dm-icon {
+    background-image: url('https://files.catbox.moe/u3ohtx.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
+:root {
+    --colors: on;
+    --text-0: hsl(220, 12%, 50%); /* Darker text */
+    --text-1: hsl(220, 15%, 45%);
+    --text-2: hsl(220, 17%, 40%);
+    --text-3: hsl(220, 18%, 35%);
+    --text-4: hsl(220, 20%, 25%);
+    --text-5: hsl(220, 22%, 20%);
+
+    --bg-1: hsl(220, 8%, 10%); /* Darker background */
+    --bg-2: hsl(220, 7%, 8%);
+    --bg-3: hsl(220, 6%, 6%);
+    --bg-4: hsl(220, 5%, 4%);
+    --hover: hsl(220, 10%, 15%, 0.1);
+    --active: hsl(220, 12%, 18%, 0.2);
+    --active-2: hsl(220, 15%, 20%, 0.3);
+    --message-hover: hsl(220, 5%, 4%, 0.1);
+
+    --accent-1: hsl(220, 30%, 40%); /* Darker accents */
+    --accent-2: hsl(220, 28%, 35%);
+    --accent-3: hsl(220, 25%, 30%);
+    --accent-4: hsl(220, 22%, 25%);
+    --accent-5: hsl(220, 20%, 20%);
+    --mention: linear-gradient(to right, hsl(220, 25%, 15%) 40%, transparent);
+    --mention-hover: linear-gradient(to right, hsl(220, 22%, 12%) 40%, transparent);
+    --reply: linear-gradient(to right, hsl(220, 15%, 25%) 40%, transparent);
+    --reply-hover: linear-gradient(to right, hsl(220, 12%, 22%) 40%, transparent);
+
+    --online: hsl(140, 50%, 25%); /* Darker online color */
+    --dnd: hsl(0, 55%, 30%);
+    --idle: hsl(40, 50%, 35%);
+    --streaming: hsl(270, 45%, 30%);
+    --offline: hsl(220, 10%, 15%);
+
+    --border-light: hsl(220, 15%, 25%, 0.1);
+    --border: hsl(220, 18%, 25%, 0.2);
+    --button-border: hsl(0, 0%, 100%, 0.1);
+}
